@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.clock {
+  margin: auto;
+  width: 50%;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 10px solid pink;
+  border-radius: 50%;
+}
+.clock::before{position: absolute;
+    content: '';
+    height: 80px;
+    width: 10px;
+    background: black;
+    top: 50%;
+    left: calc(50% - 5px);
+    border-radius: 5px;
+    animation: 60s spin infinite ;
+    transform-origin: top;}
+
+.clock::after{
+position: absolute;
+content: '';
+height: 75x;
+width: 6px;
+color: red;
+background: red;
+top: 50%;
+left: calc(50% - 5px);
+border-radius: 5px;
+animation: 100s spin linear infinite ;
+transform-origin: top;}
+
+@keyframes spin {
+    0% {
+        transform: rotate(-180deg)
+    }
+    100% {
+        transform: rotate(180deg)
+    }
+
+
+</style>
+</head>
+<body>
+<div class="clock" style="margin-left: 40%; margin-top: 10%;">
+
+</div>
+</body>
+</html>
