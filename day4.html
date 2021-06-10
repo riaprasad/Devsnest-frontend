@@ -24,24 +24,25 @@
 
 .clock::after{
 position: absolute;
-content: '';
-height: 75x;
+content: ' ';
+height: 75px;
 width: 6px;
 color: red;
 background: red;
 top: 50%;
 left: calc(50% - 5px);
 border-radius: 5px;
-animation: 100s spin linear infinite ;
+animation: 100s spin infinite ;
 transform-origin: top;}
 
 @keyframes spin {
     0% {
-        transform: rotate(-180deg)
+        transform: rotate(-180deg);
     }
     100% {
-        transform: rotate(180deg)
+        transform: rotate(180deg);
     }
+  }
 
 
 </style>
