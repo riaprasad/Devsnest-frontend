@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #c9e6c1;
+}
+
+div{
+  /*display: inline-block;*/
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #95ab70;
+  box-sizing: border-box;
+  box-shadow: 7px 5px 20px #080e06;
+}
+
+img{
+height: 600px;
+}
+
+h1, p{
+  text-align: center;
+}
+
+p{
+  font-size: 23px;
+}
