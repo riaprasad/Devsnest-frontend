@@ -17,8 +17,8 @@
 
 #### Day 23 - [Custom Hooks](https://codesandbox.io/s/tha23-eo5k4?file=/src/App.jsx)
 
-#### Day 24 - [React Router & Context API]
+#### Day 24 - [React Router & Context API](https://codesandbox.io/s/tha-24-zk3py?file=/src/Dashboard.jsx)
 
 #### Day 25 - [React Bootstrap](https://codesandbox.io/s/tender-feistel-vcg9z?file=/src/styles.css)
 
-#### Day 26 -
+#### Day 26 - [Redux]
