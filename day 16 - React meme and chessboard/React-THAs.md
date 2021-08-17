@@ -26,3 +26,5 @@
 #### Day 27 - [To-do List using Redux](https://o4ihi.csb.app/)
 
 #### Day 28, 29 [API Weather Project using Redux](https://pjrjx.csb.app/)
+
+#### Day 33 [To-do list using TS](https://codesandbox.io/s/tha-33-forked-vc1hh)
